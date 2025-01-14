@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Mv from "./components/Mv";
 import GuideItem from "./components/GuideItem";
 import MainDesc from "./components/MainDesc";
+import Video from "./components/Video";
 
 import React from "react";
 
@@ -84,6 +85,8 @@ export default function Home() {
             />
           </div>
         </section>
+
+        <Video />
       </main>
     </>
   );
