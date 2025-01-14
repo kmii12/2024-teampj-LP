@@ -7,6 +7,8 @@ import Mv from "./components/Mv";
 import GuideItem from "./components/GuideItem";
 import MainDesc from "./components/MainDesc";
 import Video from "./components/Video";
+import Question from "./components/Question";
+import Footer from "./components/Footer";
 
 import React from "react";
 
@@ -18,6 +20,7 @@ export default function Home() {
       <Mv />
 
       <main className={styles.mainContainer}>
+        {/* ----------三つの特徴ガイド--------- */}
         <div className={styles.guideContainer}>
           <GuideItem
             title="調べる！"
@@ -36,6 +39,7 @@ export default function Home() {
           />
         </div>
 
+        {/* -----------ダウンロード----------- */}
         <div className={styles.downRoadContainer}>
           <div className={styles.downRoadBox_left}>
             <h4>今すぐダウンロード！</h4>
@@ -50,6 +54,7 @@ export default function Home() {
           <div className={styles.downRoadBox_right}></div>
         </div>
 
+        {/* ---------アプリの詳しい使い方--------- */}
         <section className={styles.mainDescriptionContainer}>
           <div className={styles.descriptionBox_left}></div>
           <div className={styles.descriptionBox_right}>
@@ -86,8 +91,18 @@ export default function Home() {
           </div>
         </section>
 
+        {/* --------映像部分--------- */}
         <Video />
+
+        {/* --------よくある質問--------- */}
+        <div className={styles.questionContainer}>
+          <h2>よくあるご質問</h2>
+          <span className={styles.solid}></span>
+          <Question />
+        </div>
       </main>
+      {/* --------footer------- */}
+      <Footer />
     </>
   );
 }
