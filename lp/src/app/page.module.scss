@@ -1,4 +1,84 @@
 @import "./styles/colors.scss";
 
 .mainContainer {
+  .guideContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px 0;
+    margin: 80px 0 88px 0;
+  }
+
+  .downRoadContainer {
+    color: #fff;
+    width: 100vw;
+    height: 440px;
+    background: linear-gradient(180deg, #4bcddb 0.01%, #a5d3d8 100%);
+    display: flex;
+    // .mvDownRoadWrap {
+    //   width: 100vw;
+    //   flex: 1;
+
+    //   gap: 20px;
+    //   padding-right: 28px;
+    .downRoadBox_left {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      justify-content: center;
+      margin: 0 118px;
+      h4 {
+        font-size: 3em;
+      }
+      p {
+        font-size: 1.5em;
+        padding-right: 210px;
+        margin: 10px 0 20px 0;
+      }
+      .downRoadWrap {
+        display: flex;
+        gap: 10px;
+
+        .appStoreBtn {
+          background-image: url(../../public/img/btn_appStore.png);
+          background-size: cover;
+          width: 186px;
+          height: 54px;
+          display: block;
+        }
+        .googlePlayBtn {
+          background-image: url(../../public/img/btn_googlePlay.png);
+          background-size: cover;
+          width: 186px;
+          height: 54px;
+          display: block;
+          // }
+        }
+      }
+    }
+    .downRoadBox_right {
+      flex: 1;
+      background-image: url(../../public/img/downroad_women.png);
+      background-position: right;
+      background-size: cover;
+    }
+  }
+
+  .mainDescriptionContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .descriptionBox_left {
+      width: 50%;
+    }
+    .descriptionBox_right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

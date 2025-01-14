@@ -1,8 +1,54 @@
 @import "../styles/colors.scss";
 
 .mvContainer {
+  color: #fff;
   height: 548px;
   width: 100vw;
 
   background: linear-gradient(180deg, #f3b5ca 0%, #f1dce3 100%);
+
+  .mvMainContainer {
+    width: 100vw;
+    height: 100%;
+    background-image: url(../../../public/img/mv_women.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10%;
+    display: flex;
+    flex-direction: column;
+    .mvTtlContainer {
+      padding: 120px 246px 110px 45%;
+      h2 {
+        font-size: 4.5em;
+        margin-bottom: 30px;
+      }
+      .mvTxt {
+        font-size: 1.5em;
+      }
+    }
+    .mvDownRoadWrap {
+      width: 100vw;
+      flex: 1;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 20px;
+      padding-right: 28px;
+
+      .appStoreBtn {
+        background-image: url(../../../public/img/btn_appStore.png);
+        background-size: cover;
+        width: 186px;
+        height: 54px;
+        display: block;
+      }
+      .googlePlayBtn {
+        background-image: url(../../../public/img/btn_googlePlay.png);
+        background-size: cover;
+        width: 186px;
+        height: 54px;
+        display: block;
+      }
+    }
+  }
 }
