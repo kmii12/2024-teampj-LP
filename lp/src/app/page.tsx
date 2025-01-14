@@ -97,7 +97,10 @@ export default function Home() {
         {/* --------よくある質問--------- */}
         <div className={styles.questionContainer}>
           <h2>よくあるご質問</h2>
-          <span className={styles.solid}></span>
+          <span></span>
+          <Question />
+          <Question />
+          <Question />
           <Question />
         </div>
       </main>

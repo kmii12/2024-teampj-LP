@@ -9,9 +9,11 @@ import "../styles/colors.scss";
 export default function Question() {
   return (
     <>
-      <section className={styles.questionItem}>
-        <h3>えほんポケットでは、どんなことができますか？</h3>
-      </section>
+      <div className={styles.questionList}>
+        <section className={styles.questionItem}>
+          <h3>えほんポケットでは、どんなことができますか？</h3>
+        </section>
+      </div>
     </>
   );
 }
