@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Orbitron&family=Roboto:ital,wght@1,300&family=Zen+Maru+Gothic&display=swap");
 :root {
   --background: #ffffff;
   font-size: 62.5%;
@@ -19,9 +20,10 @@ body {
 body {
   color: #000;
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Zen Maru Gothic";
 }
 
 * {
