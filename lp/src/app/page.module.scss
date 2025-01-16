@@ -33,6 +33,7 @@
       h4 {
         font-size: 3em;
       }
+
       p {
         font-size: 1.5em;
         padding-right: 210px;
@@ -73,8 +74,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
     .descriptionBox_left {
       width: 50%;
+      h3 {
+        text-align: right;
+      }
+      h4 {
+        text-align: right;
+      }
     }
     .descriptionBox_right {
       flex: 1;
