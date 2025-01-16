@@ -1,12 +1,12 @@
 import styles from "./Mv.module.scss";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 // import decoCloud from "../../../public/img/deco_cloud_leftTop.png";
 
 import "../styles/colors.scss";
 
 // import ReactDOM from "react-dom";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 // export default function Mv() {
 //   return (
