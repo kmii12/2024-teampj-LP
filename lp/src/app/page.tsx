@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import Mv from "./components/Mv";
 import GuideItem from "./components/GuideItem";
 import MainDesc from "./components/MainDesc";
+import Mockup from "./components/Mockup";
+
 import Video from "./components/Video";
 import Question from "./components/Question";
 import Footer from "./components/Footer";
@@ -14,6 +16,9 @@ import Footer from "./components/Footer";
 import guideImage01 from "../../public/img/guide_01.png";
 import guideImage02 from "../../public/img/guide_02.png";
 import guideImage03 from "../../public/img/guide_03.png";
+import mockImage01 from "../../public/img/mock_01.png";
+import mockImage02 from "../../public/img/mock_02.png";
+import mockImage03 from "../../public/img/mock_02.png";
 
 import React from "react";
 
@@ -61,7 +66,12 @@ export default function Home() {
 
         {/* ---------アプリの詳しい使い方--------- */}
         <section className={styles.mainDescriptionContainer}>
-          <div className={styles.descriptionBox_left}></div>
+          <div className={styles.descriptionBox_left}>
+            <Mockup
+              title="えほんポケットの検索ページへようこそ！"
+              image={mockImage01.src}
+            />
+          </div>
           <div className={styles.descriptionBox_right}>
             <MainDesc
               title="えほんポケットの検索ページへようこそ！"
@@ -82,10 +92,17 @@ export default function Home() {
 レビューやおすすめポイントを参考に、他のユーザーの声や、専門家のコメントで安心して選べます。"
             />
           </div>
-          <div className={styles.descriptionBox_right}></div>
+          <div className={styles.descriptionBox_right}>
+            <Mockup title="検索結果を見てみよう！" image={mockImage02.src} />
+          </div>
         </section>
         <section className={styles.mainDescriptionContainer}>
-          <div className={styles.descriptionBox_left}></div>
+          <div className={styles.descriptionBox_left}>
+            <Mockup
+              title="えほんポケットの検索ページへようこそ！"
+              image={mockImage02.src}
+            />
+          </div>
           <div className={styles.descriptionBox_right}>
             <MainDesc
               title="あなただけの絵本棚"
