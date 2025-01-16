@@ -18,7 +18,6 @@ import guideImage02 from "../../public/img/guide_02.png";
 import guideImage03 from "../../public/img/guide_03.png";
 import mockImage01 from "../../public/img/mock_01.png";
 import mockImage02 from "../../public/img/mock_02.png";
-
 import React from "react";
 
 console.log(Mv);
