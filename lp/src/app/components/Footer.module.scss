@@ -1,0 +1,40 @@
+@import "../styles/colors.scss";
+
+.footer {
+  width: 100w;
+  height: 230px;
+  background: #fff5c9;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  .logoWrap {
+    width: 100vh;
+    padding: 20px 0;
+    .logo {
+      width: 275px;
+      height: 66px;
+    }
+  }
+  .downRoadWrap {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    padding: 10px 0;
+
+    .appStoreBtn {
+      background-image: url(../../../public/img/btn_appStore.png);
+      background-size: cover;
+      width: 186px;
+      height: 54px;
+      display: block;
+    }
+    .googlePlayBtn {
+      background-image: url(../../../public/img/btn_googlePlay.png);
+      background-size: cover;
+      width: 186px;
+      height: 54px;
+      display: block;
+      // }
+    }
+  }
+}

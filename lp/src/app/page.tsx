@@ -10,6 +10,11 @@ import Video from "./components/Video";
 import Question from "./components/Question";
 import Footer from "./components/Footer";
 
+//画像
+import guideImage01 from "../../public/img/guide_01.png";
+import guideImage02 from "../../public/img/guide_02.png";
+import guideImage03 from "../../public/img/guide_03.png";
+
 import React from "react";
 
 console.log(Mv);
@@ -25,17 +30,17 @@ export default function Home() {
           <GuideItem
             title="調べる！"
             txt="「調べる」機能は、絵本をもっと楽しむための情報探しをサポートします。"
-            image="../../../public/img/"
+            image={guideImage01.src}
           />
           <GuideItem
             title="保存する！"
             txt="お気に入りの絵本や大切な思い出を「えほんポケット」に保存して、いつでもどこでも楽しめます。"
-            image="../../../public/img/"
+            image={guideImage02.src}
           />
           <GuideItem
             title="読む！"
             txt="まるで本物の絵本をめくるような体験を。親子で楽しめる読み聞かせタイムをもっと特別にします。"
-            image="../../../public/img/"
+            image={guideImage03.src}
           />
         </div>
 

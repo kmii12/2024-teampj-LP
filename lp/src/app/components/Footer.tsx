@@ -1,4 +1,4 @@
-import styles from "./Header.module.scss";
+import styles from "./Footer.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 import logoVer2 from "../../../public/img/logo_ver2.png";
@@ -10,7 +10,13 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <div className={styles.logoWrap}>
-          <Image src={logoVer2} height={92} width={382} alt="えほんポケット" />{" "}
+          <Image
+            src={logoVer2}
+            height={92}
+            width={382}
+            alt="えほんポケット"
+            className={styles.logo}
+          />{" "}
         </div>
         <div className={styles.downRoadWrap}>
           <Link href={`/`} className={styles.appStoreBtn}></Link>

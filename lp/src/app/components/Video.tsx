@@ -7,7 +7,9 @@ import "../styles/colors.scss";
 export default function Video() {
   return (
     <>
-      <div className={styles.videoContainer}> </div>
+      <div className={styles.videoContainer}>
+        <p>サービス紹介動画準備中です。</p>
+      </div>
     </>
   );
 }

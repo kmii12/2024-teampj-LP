@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./GuideItem.module.scss";
 // import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 // import decoCloud from "../../../public/img/deco_cloud_leftTop.png";
 
 import "../styles/colors.scss";
@@ -18,7 +18,15 @@ const GuideItem = (props: propsType) => {
       <h3>{props.title}</h3>
       <span></span>
       <p className={styles.guideItemTxt}>{props.txt}</p>
-      <div className={styles.guideItemImg}>{props.image}</div>
+      <div className={styles.guideItemImg}>
+        <Image
+          src={props.image}
+          alt={props.title}
+          width={300}
+          height={200}
+          className={styles.image}
+        ></Image>
+      </div>
     </section>
   );
 };
