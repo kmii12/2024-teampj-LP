@@ -16,7 +16,7 @@
     width: 70%;
     height: 1px;
     margin: 0 auto;
-    background-color: #000;
+    background-color: $fontMain;
     margin-bottom: 34px;
   }
   .guideItemTxt {
@@ -30,7 +30,7 @@
     width: 390px;
     height: 390px;
     border-radius: 50%;
-    border: solid #000 1px;
+    border: solid $fontMain 1px;
     padding: 20px;
     margin: 0 auto;
     .image {

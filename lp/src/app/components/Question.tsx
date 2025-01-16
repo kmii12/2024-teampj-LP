@@ -11,6 +11,7 @@ export default function Question() {
     <>
       <div className={styles.questionList}>
         <section className={styles.questionItem}>
+          <div className={styles.questionIcon}></div>
           <h3>えほんポケットでは、どんなことができますか？</h3>
         </section>
       </div>
